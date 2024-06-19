@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    flex-direction: column;
+}
+.social-container{
+    width: 300px;
+    height: 550px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social-container .profile{
+    width: 100%;
+    height: auto;
+    background: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.social-container .profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.social-container .profile h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 15px;
+}
+.social-container .profile h4{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.social-container .profile p{
+    color:hsl(0, 0%, 100%) ;
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.social-container .social-links{
+    width: 100%;
+    height: auto;
+    background: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.social-container .social-links button{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color:hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.social-container .social-links button:hover{
+    color:hsl(0, 0%, 12%) ;
+    background-color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
